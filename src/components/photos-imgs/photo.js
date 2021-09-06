@@ -2,8 +2,8 @@ import './photo.css';
 
 function Photo(props) {
   return (
-    <div className="Photo">
-        <img src={props.image} className="Photo-image" alt="photo" />
+    <div className="">
+        <img src={props.image} className="grid-gallery__image" alt="photo" />
     </div>
   );
 }
